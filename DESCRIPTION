@@ -1,0 +1,14 @@
+Package: MARCtable
+Type: Package
+Title: Read MARC Files Into R Dataframes Using Pymarc
+Version: 0.1.0
+Author: Ben Schmidt
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Ed Summers' PyMarc library is the gold standard
+   for editing and creating MARC files. This package exposes
+   a bit of its functionality so that you can read a MARC-21
+   file directly into a tibble.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+imports: tibble, arrow, reticulate
