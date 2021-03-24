@@ -13,6 +13,15 @@ if (!require(remotes)) install.packages("remotes")
 remotes::install_github("bmschmidt/MARCtable")
 ```
 
+## Configuration
+
+You need to actually install pymarc through the reticulate package. This will accomplish that for you.
+
+```R
+library("MARCtable")
+install_pymarc
+```
+
 ## Use
 
 ```R
